@@ -1,0 +1,289 @@
+
+.dark-blue-bgcolor,.btn, .Clients {
+  background-color: #162c53;
+  color:white;
+}
+.list-unstyled{
+  padding-left:5px;
+}
+hr{
+width:70%;
+margin: auto;
+}
+body{
+color: #162c55;
+font-family: 'Poppins', sans-serif;
+}
+.logo{
+  width:55%;
+  /* height:100%; */
+}
+.navbar{
+  padding:0.3rem 1rem ;
+}
+.nav-text{
+  color: #000000;
+  font-weight: 500;
+  font-size: 1.3rem;
+  font-family:  Helvetica, sans-serif;
+  line-height: 1;
+}
+
+.home{
+  color:#5378bc;
+  font-weight: 500;
+}
+
+/* CAROUSAL */
+.service-carousel{
+  height:550px;
+  width: 100%;
+  position: relative;
+
+}
+.carousal-image{
+  width:100%;
+  height:100%;
+
+}
+.carousel-background{
+  background-color: rgba(36, 48, 56, 0.5);
+  width:100%;
+  height: 100%;
+  position: absolute;
+  top:0px;
+}
+.carousel-inner{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+
+}
+.carousel-text{
+  position: absolute;
+  top:10rem;
+  left:6rem;
+  width:57rem;
+
+}
+
+.carousel-text h5{
+    font-weight: 700;
+    color:#71d6f2;
+    font-size:1.5rem;
+}
+.carousel-text h1{
+  font-weight: 700;
+  font-size: 60px;
+  color:white;
+}
+.carousel-text p{
+  color:white;
+  font-size: 1.2rem;
+}
+
+
+.btn{
+  border-radius:0;
+}
+
+/* -------ABOUT-US --------*/
+.aboutus-image{
+  max-width: 100%;
+  height:auto;
+}
+
+.about-us,.service-heading,.service-text-img{
+    font-weight:400;
+    color:black;
+}
+.about-us h3{
+  line-height: 1;
+}
+.about-us h2, .service-heading h2{
+  font-weight:700;
+  font-size: calc(1rem + 2vw);
+  color: #162c55;
+}
+.about-us p{
+  font-size: 1.12rem;
+line-height:1.7;
+letter-spacing:0.3px;
+width:70%;
+color:#878787;
+font-weight:400;
+}
+
+/*------- SERVICE-------- */
+.service{
+  padding: 0 5%;
+  margin-bottom:40px;
+}
+.service-heading{
+  text-align: center;
+  width:60%;
+  margin:20px auto;
+
+}
+.service-text-img{
+  max-width:90%;
+  position: relative;
+}
+.service-img{
+  width:100%;
+}
+.writing{
+  text-align: center;
+  width:100%;
+  height:40%;
+
+  color:white;
+  position: absolute;
+  top:30%;
+}
+.writing h2{
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+
+.writing img{
+  width:15%;
+  margin-bottom: 10px;
+}
+.service-text-img .carousel-background:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* CLIENT-LOGO------------- */
+.Clients{
+  text-align:center;
+  padding:35px 0;
+}
+
+.Clients h2{
+  width:55%;
+  margin: auto;
+  font-weight:600;
+}
+.client-logo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.i{
+  width:14%;
+  margin:0.5rem;
+}
+img{
+  width:100%;
+}
+/* user-email----------- */
+.input-group{
+  padding: 7% 30% 5.5%;
+}
+.message{
+    width:2vw;
+}
+.input-group-text{
+width:auto;
+  background-color: white;
+  border-right-color: white;
+}
+
+.email{
+  padding: 8px 0;
+  width:1vw;
+}
+.submit-addon2{
+  color:white;
+}
+
+/* FOOTER------------- */
+.footer{
+  background-color: #e6f0fa;
+}
+.footer h2{
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+.footer .container{
+  padding: 50px 0 20px 50px;
+}
+
+li{
+  line-height:2.5;
+}
+a{
+  text-decoration: none;
+  color:black;
+  font-weight: lighter;
+}
+.footer a{
+  text-decoration: none;
+  color: #162c55;
+}
+a:hover{
+  color:black;
+}
+.footer-img{
+  width:25px;
+}
+.info{
+  font-size:90%;
+}
+
+@media (max-width:1196px){
+
+  .about-us h2,{
+    font-size: 1.5rem;
+  }
+
+  .about-us p{
+    font-weight:400;
+width:315px;
+font-size: 14px;
+
+  }
+}
+@media (max-width:768px){
+
+  .aboutus-image{
+width:80%
+  }
+
+  #about-us .row{
+    text-align: center;
+    padding: 0 4rem;
+  }
+
+  .about-us h3{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .about-us p{
+width:100%;
+margin: auto;
+padding: 0 20px 10px;
+font-size: 14px;
+  }
+
+  .service-text-img{
+    width:50%;
+    margin: auto;
+  }
+
+  .container{
+    align-items: center;
+    justify-content: center;
+  }
+  .email{
+    padding: 0 0;
+    width:100%;
+  }
+.p-5{
+  padding-top: 0;
+}
+}
